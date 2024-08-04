@@ -1,0 +1,34 @@
+<html>
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3 id="home-head">HOME <i id="home-icon" class="fa-solid fa-trophy"></i></h3>
+            <p class="cursed-font" id="home">0</p>
+            <div class="button-container">
+                <button class="cursed-font1" onclick="homeOne()">+1</button>
+                <button class="cursed-font1" onclick="homeTwo()">+2</button>
+                <button class="cursed-font1" onclick="homeThree()">+3</button>
+            </div>
+        </div>
+        <div>
+            <h3 id="guest-head">GUEST <i id="guest-icon" class="fa-solid fa-trophy"></i></h3>
+            <p class="cursed-font" id="guest">0</p>
+            <div class="button-container">
+                <button class="cursed-font1" onclick="guestOne()">+1</button>
+                <button class="cursed-font1" onclick="guestTwo()">+2</button>
+                <button class="cursed-font1" onclick="guestThree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <button class="new-game" onclick="newGame()">START A NEW GAME</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
